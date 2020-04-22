@@ -1,9 +1,16 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
-      "info-card#botton-right",
-      "info-card#botton-left"
+      "rich-text",  
+       "info-card"
+      // "info-card#button-right",
+      // "info-card#botton-left"
+    ]
+  },
+  "info-card": {
+    "children":[
+      "info-card#button-right", 
+      "info-card#button-left"
     ]
   },
   "rich-text": {
@@ -24,7 +31,8 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
-  },
+  }
+  ,
   "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
