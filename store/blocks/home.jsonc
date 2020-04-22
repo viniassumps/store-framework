@@ -2,15 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",  
-       "info-card"
-      // "info-card#button-right",
-      // "info-card#botton-left"
-    ]
-  },
-  "info-card": {
-    "children":[
-      "info-card#button-right", 
-      "info-card#button-left"
+      "info-card#button-right",
+      "info-card"      
     ]
   },
   "rich-text": {
@@ -21,6 +14,7 @@
   },
   "info-card#button-right": {
     "props": {
+      "id": "button-right",
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
@@ -31,10 +25,10 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
-  }
-  ,
-  "info-card#button-left": {
+  },
+  "info-card": {
     "props": {
+      "id": "button-left",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
