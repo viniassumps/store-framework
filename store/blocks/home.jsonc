@@ -3,7 +3,7 @@
     "blocks": [
       "rich-text",  
       "info-card#button-right",
-      "info-card"      
+      "info-card#button-left"      
     ]
   },
   "rich-text": {
@@ -26,7 +26,7 @@
       "textAlignment": "center"
     }
   },
-  "info-card": {
+  "info-card#button-left": {
     "props": {
       "id": "button-left",
       "isFullModeStyle": false,
