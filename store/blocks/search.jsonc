@@ -23,7 +23,8 @@
     ],
     "props" : {
       "pagination": "show-more",
-      "preventRouteChange": true
+      "preventRouteChange": true,
+      "indexOf" : 0
     }
       
   }
