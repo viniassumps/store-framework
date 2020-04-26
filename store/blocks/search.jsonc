@@ -22,9 +22,8 @@
       "search-fetch-more"
     ],
     "props" : {
-      "pagination": "show-more",
-      "preventRouteChange": true,
-      "indexOf" : 0
+      "pagination": "show-more"
+      //"preventRouteChange": true
     }
       
   }
