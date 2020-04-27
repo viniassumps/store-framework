@@ -4,6 +4,7 @@
       "flex-layout.row#about-us"
     ]
   },
+  
   "flex-layout.row#about-us": {
     "children": [
       "image#about-us",
@@ -22,7 +23,7 @@
   "rich-text#about-title": {
     "props": {
       "text":
-      "# **About FlatFlat**"
+      "# About FlatFlat"
     }
   },
   "rich-text#about-content": {
