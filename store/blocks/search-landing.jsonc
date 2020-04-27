@@ -1,28 +1,25 @@
 {
-    "store.custom#landing": { 
-        "blocks": [
-          "image#landing", 
-          "search-result-layout.customQuery"
-        ]
-      },
-
-      "image#landing": {
-        "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
-          "minWidth": "100%"
+    "store.custom#landing": {
+      "blocks": [
+        "image#landingbanner",
+        "search-result-layout.customQuery"
+      ]
+    },
+    "image#landingbanner": {
+      "props": {
+        "src": "https://images.unsplash.com/photo-1575477708784-04d94682c101?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80",
+        "minWidth": "100%"
+      }
+    },
+    "search-result-layout.customQuery": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "Blue Top Retro Camera",
+          "mapField": "ft"
         }
-      },
-
-    "search-result-layout.customQuery": {                              
-        "props": {
-            "querySchema": {
-              "orderByField" : "OrderByReleaseDateDESC",
-              "hideUnavailableItems" : true,
-              "maxItemsPerPage" : 8,
-              "queryField": "Blue Top Retro Camera",
-              "mapField": "ft"
-            }                            
-        }
+      }
     }
-
-}
+  }
