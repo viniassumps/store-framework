@@ -21,8 +21,8 @@
       "search-fetch-more"
     ],
     "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true
+      "pagination": "show-more"
+      //"preventRouteChange": true
     }
   },
   "flex-layout.row#top": {
@@ -62,5 +62,5 @@
       "product-summary.shelf"
     ]
   }
-  
+
 }
