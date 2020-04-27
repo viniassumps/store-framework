@@ -9,8 +9,7 @@
       "image#landingbanner": {
         "props": {
           "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
-          "minWeight": "100%",
-          "maxHeight": "300px"
+          "minWeight": "100%"
         }
       },
 
