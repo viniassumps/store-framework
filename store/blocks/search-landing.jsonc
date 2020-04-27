@@ -1,0 +1,29 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+          "image#landing"
+          ,"search-result-layout.customQuery" 
+        ]
+      },
+
+      "image#landing": {
+        "props": {
+          "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+          "minWeight": "100%",
+          "maxHeight": "300px"
+        }
+      },
+
+    "search-result-layout.customQuery": {                              
+        "props": {
+            "querySchema": {
+              "orderByField" : "OrderByReleaseDateDESC",
+              "hideUnavailableItems" : true,
+              "maxItemsPerPage" : 8,
+              "queryField": "Blue Top Retro Camera",
+              "mapField": "ft"
+            }                            
+        }
+    }
+
+}
