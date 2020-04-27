@@ -1,12 +1,12 @@
 {
     "store.custom#landing": { 
         "blocks": [
-          "image#landingbanner", 
+          "image#landing", 
           "search-result-layout.customQuery"
         ]
       },
 
-      "image#landingbanner": {
+      "image#landing": {
         "props": {
           "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
           "minWidth": "100%"
